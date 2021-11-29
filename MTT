@@ -1,0 +1,17 @@
+>> Date=datenum(Y,M,D,0,0,0);
+cftool
+Date=datenum(Y,M,D,0,0,0);
+cftool
+>> syms x;
+ eq=x*atan(sqrt((0.748504)^((-2)/x)-1))+1.948941;
+ result=vpasolve(eq,x);
+result
+ 
+result =
+ 
+Empty sym: 0-by-1
+ 
+>> syms x;
+ eq=x*atan(sqrt((0.748504)^(-2)/x)-1)+1.948941;
+ result=vpasolve(eq,x);
+result
